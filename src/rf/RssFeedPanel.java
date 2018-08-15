@@ -82,13 +82,13 @@ public class RssFeedPanel extends JPanel {
 												
 						setRssFeedMessageThread(index);
 
-						Thread.sleep(5000);
+						Thread.sleep(15000);
 						
 						index++;
 						
 						if (index >= AnzahlNachrichten)
 							index = 0;
-						System.out.println("Index: " + index + " FeedIndex : " + FeedIndex);
+//						System.out.println("Index: " + index + " FeedIndex : " + FeedIndex);
 						
 					} catch (InterruptedException e) {
 
